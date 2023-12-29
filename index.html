@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/resets.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Dictionary Web App</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
             <button>
                 <img src="./assets/images/iconoir_book.png" alt="book icon">
             </button>
-            <section>
+            <section class="theme-options">
                 <form>
                     <label for="font-toggle"></label>
                     <select name="font-toggle" aria-labelledby="font-toggle">
@@ -21,14 +22,15 @@
                         <option value="mono">Mono</option>
                     </select>
                 </form>
-                <form>                    
-                    <button name="color-theme-toggle">toggle button</button>
+                <span> | </span>
+                <form class="color-theme-toggle">                    
+                    <button name="color-theme-toggle">togg </button>
                     <img src="./assets/images/iconoir_half-moon.png" alt="night mode icon">
                 </form>
             </section>
         </nav>
     </header>
-    <section>
+    <section class="search-container">
         <form>
            <input type="search" placeholder="search bar" name="search">
            <button type="submit">search button</button>

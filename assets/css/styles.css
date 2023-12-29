@@ -1,0 +1,34 @@
+button, select{
+    border: none;
+    background: none;
+}
+
+nav, main, .search-container{
+    max-width: 800px;
+    margin: auto;
+}
+
+/* styles for nav bar */
+nav, nav section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.theme-options{
+    min-width: 200px;   
+}
+
+.theme-options select, .theme-options form button {
+    height: 25px;
+}
+.color-theme-toggle{
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img[alt = 'book icon']{
+    height: 30px;
+}
