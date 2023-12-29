@@ -7,9 +7,14 @@ Assuming you are currently on the `main` branch, pull the latest changes from th
 ```bash
 git pull origin main
 ```
-## 2. Create New Branch
+## 2. Create New Branch / Switch to branch
 Create a new branch for your feature or bug fix. Replace feature-branch with an appropriate and descriptive branch name:
 ```bash
+// to switch branches
+git checkout feature-branch
+```
+```bash
+// to create a new branch
 git checkout -b feature-branch
 ```
 ## 3. Make Changes
