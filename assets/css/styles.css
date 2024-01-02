@@ -32,3 +32,8 @@ nav, nav section{
 img[alt = 'book icon']{
     height: 30px;
 }
+/* styles for nav bar on larges screens */
+
+header nav{
+    padding: 54px 0;
+}
